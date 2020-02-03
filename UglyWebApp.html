@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="UglyWebApp.css" />
+    <title>*,..,* Ugly Web App</title>
+  </head>
+  <body>
+    <h1>Ugly App</h1>
+    <h3>Cost Tracker</h3>
+    <form>
+      <p>
+        <label>Name: </label>
+        <input type="text" id="name" size="8" />
+      </p>
+      <p>
+        <label>Amount: </label>
+        <input type="text" id="amount" size="8" />
+      </p>
+      <p>
+        <label>Cost types: </label>
+        <input type="text" id="costType" size="8" />
+      </p>
+      <p>
+        <input type="button" value="Add" onClick="addCost()" />
+      </p>
+    </form>
+    <h3>Cost types</h3>
+    <ul>
+      <li>0: daily</li>
+      <li>1: weekly</li>
+      <li>2: monthly</li>
+      <li>3: yearly</li>
+    </ul>
+
+    <p id="pOutput"></p>
+    <output id="myOutput" name="x" for="a b"></output>
+    <script type="text/javascript" src="UglyWebApp.js"></script>
+  </body>
+</html>

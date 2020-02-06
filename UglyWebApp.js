@@ -1,3 +1,8 @@
+//importing default from UglyWebApp
+import sumarum from "./UglyWebApp2";
+
+console.log(sumarum(5,5));
+
 // use of const - only the outer layer e.g. first bracked is constant.
 // content of array can be manipulated
 // use of trailing comma
